@@ -9,4 +9,4 @@ Intérêts de cette série :
 
 Un exemple d'application se trouve en ligne (générée grâce à un *export HTML5*) :
 
-- [url?](url)
+- [voir l'application en ligne](https://padilla-nsi.github.io/extra/godot/timer/source/exports/html/)

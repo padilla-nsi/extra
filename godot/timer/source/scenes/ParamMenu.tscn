@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://themeDefaut.tres" type="Theme" id=2]
+[ext_resource path="res://assets/icoBack.png" type="Texture" id=3]
+[ext_resource path="res://assets/updown.png" type="Texture" id=4]
+[ext_resource path="res://scenes/IconButton.tscn" type="PackedScene" id=5]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.388235, 0.105882, 0.431373, 1 )
+
+[node name="ParamMenu" type="Panel"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 32.0
+margin_top = -528.0
+margin_right = 682.0
+margin_bottom = 167.0
+rect_min_size = Vector2( 0, 500 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ConfigHeader" type="Control" parent="VBoxContainer"]
+margin_right = 650.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 150 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ConfigHeader"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" parent="VBoxContainer/ConfigHeader/HBoxContainer" instance=ExtResource( 5 )]
+icon = ExtResource( 3 )
+
+[node name="LabelHeader" type="Label" parent="VBoxContainer/ConfigHeader/HBoxContainer"]
+margin_left = 154.0
+margin_right = 650.0
+margin_bottom = 150.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+theme = ExtResource( 2 )
+text = "Paramètres"
+valign = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_top = 154.0
+margin_right = 650.0
+margin_bottom = 225.0
+theme = ExtResource( 2 )
+text = "Durée du compteur"
+
+[node name="SpinBox" type="SpinBox" parent="VBoxContainer"]
+margin_top = 229.0
+margin_right = 650.0
+margin_bottom = 300.0
+focus_next = NodePath("../..")
+focus_previous = NodePath("../..")
+theme = ExtResource( 2 )
+custom_icons/updown = ExtResource( 4 )
+max_value = 9999.0
+value = 5.0
+align = 1
+suffix = "min"

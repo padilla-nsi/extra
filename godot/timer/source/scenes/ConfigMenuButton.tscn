@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://themeDefaut.tres" type="Theme" id=1]
+[ext_resource path="res://scripts/ConfigMenuButton.gd" type="Script" id=2]
+[ext_resource path="res://assets/icoParam.png" type="Texture" id=3]
+[ext_resource path="res://assets/icon.png" type="Texture" id=4]
+
+[node name="ConfigMenuButton" type="ColorRect"]
+margin_top = 154.0
+margin_right = 650.0
+margin_bottom = 304.0
+rect_min_size = Vector2( 0, 150 )
+color = Color( 0.388235, 0.105882, 0.431373, 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+icon = ExtResource( 4 )
+texte = "titre"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ico" type="Control" parent="HBoxContainer"]
+margin_right = 150.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
+mouse_filter = 1
+
+[node name="IcoParam" type="Sprite" parent="HBoxContainer/Ico"]
+position = Vector2( 75, 75 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+margin_left = 154.0
+margin_right = 650.0
+margin_bottom = 150.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+theme = ExtResource( 1 )
+text = "Paramètres"
+valign = 1
+
+[connection signal="mouse_entered" from="." to="." method="_on_ParamButton_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_ParamButton_mouse_exited"]

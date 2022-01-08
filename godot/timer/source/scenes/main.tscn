@@ -1,0 +1,271 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://scripts/GUI.gd" type="Script" id=1]
+[ext_resource path="res://themeDefaut.tres" type="Theme" id=2]
+[ext_resource path="res://scenes/IconButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/icoAbout.png" type="Texture" id=4]
+[ext_resource path="res://Roboto-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://assets/icoBack.png" type="Texture" id=6]
+[ext_resource path="res://assets/icoConfig.png" type="Texture" id=7]
+[ext_resource path="res://assets/icoParam.png" type="Texture" id=8]
+[ext_resource path="res://scenes/ConfigMenuButton.tscn" type="PackedScene" id=9]
+[ext_resource path="res://scenes/ParamMenu.tscn" type="PackedScene" id=10]
+[ext_resource path="res://assets/icoInit.png" type="Texture" id=11]
+[ext_resource path="res://assets/icoStart.png" type="Texture" id=12]
+[ext_resource path="res://scenes/Timer.gd" type="Script" id=13]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.160784, 0.0313726, 0.180392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.388235, 0.105882, 0.431373, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+font_data = ExtResource( 5 )
+
+[node name="App" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GUI" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Main" type="Panel" parent="GUI"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="infoMain" type="Label" parent="GUI/Main"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -157.0
+margin_right = 157.0
+margin_bottom = 71.0
+theme = ExtResource( 2 )
+text = "écran MAIN"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="GUI/Main"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUI/Main/CenterContainer"]
+margin_left = 56.0
+margin_top = 565.0
+margin_right = 664.0
+margin_bottom = 715.0
+rect_min_size = Vector2( 0, 150 )
+
+[node name="InitButton" type="ColorRect" parent="GUI/Main/CenterContainer/HBoxContainer"]
+margin_right = 150.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
+color = Color( 0.160784, 0.0313726, 0.180392, 1 )
+
+[node name="IcoInit" type="Sprite" parent="GUI/Main/CenterContainer/HBoxContainer/InitButton"]
+position = Vector2( 75, 75 )
+texture = ExtResource( 11 )
+
+[node name="TextTimer" type="Label" parent="GUI/Main/CenterContainer/HBoxContainer"]
+margin_left = 154.0
+margin_top = 39.0
+margin_right = 454.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 300, 0 )
+theme = ExtResource( 2 )
+text = "9999"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartPauseButton" type="ColorRect" parent="GUI/Main/CenterContainer/HBoxContainer"]
+margin_left = 458.0
+margin_right = 608.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
+color = Color( 0.160784, 0.0313726, 0.180392, 1 )
+
+[node name="IcoStart" type="Sprite" parent="GUI/Main/CenterContainer/HBoxContainer/StartPauseButton"]
+position = Vector2( 75, 75 )
+texture = ExtResource( 12 )
+
+[node name="ConfigButton" parent="GUI/Main" instance=ExtResource( 3 )]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -209.0
+margin_right = 209.0
+margin_bottom = 0.0
+icon = ExtResource( 7 )
+fontColor = Color( 0.160784, 0.0313726, 0.180392, 1 )
+
+[node name="ConfigMenu" type="Panel" parent="GUI"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 11.0
+margin_top = 139.0
+margin_right = 11.0
+margin_bottom = 639.0
+rect_min_size = Vector2( 0, 500 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUI/ConfigMenu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ConfigHeader" type="Control" parent="GUI/ConfigMenu/VBoxContainer"]
+margin_right = 720.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 150 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUI/ConfigMenu/VBoxContainer/ConfigHeader"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" parent="GUI/ConfigMenu/VBoxContainer/ConfigHeader/HBoxContainer" instance=ExtResource( 3 )]
+icon = ExtResource( 6 )
+
+[node name="LabelHeader" type="Label" parent="GUI/ConfigMenu/VBoxContainer/ConfigHeader/HBoxContainer"]
+margin_left = 154.0
+margin_right = 720.0
+margin_bottom = 150.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+theme = ExtResource( 2 )
+text = "Configuration"
+valign = 1
+
+[node name="ParamButton" parent="GUI/ConfigMenu/VBoxContainer" instance=ExtResource( 9 )]
+margin_right = 720.0
+icon = ExtResource( 8 )
+texte = "Paramètres"
+
+[node name="AboutButton" parent="GUI/ConfigMenu/VBoxContainer" instance=ExtResource( 9 )]
+margin_top = 308.0
+margin_right = 720.0
+margin_bottom = 458.0
+icon = ExtResource( 4 )
+texte = "À propos"
+
+[node name="ParamMenu" parent="GUI" instance=ExtResource( 10 )]
+margin_left = 127.0
+margin_top = -718.0
+margin_right = 777.0
+margin_bottom = -23.0
+
+[node name="AboutMenu" type="Panel" parent="GUI"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 887.0
+margin_top = -758.0
+margin_right = 1537.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 0, 750 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUI/AboutMenu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 50
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ConfigHeader" type="Control" parent="GUI/AboutMenu/VBoxContainer"]
+margin_right = 650.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 150 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUI/AboutMenu/VBoxContainer/ConfigHeader"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" parent="GUI/AboutMenu/VBoxContainer/ConfigHeader/HBoxContainer" instance=ExtResource( 3 )]
+icon = ExtResource( 6 )
+
+[node name="LabelHeader" type="Label" parent="GUI/AboutMenu/VBoxContainer/ConfigHeader/HBoxContainer"]
+margin_left = 154.0
+margin_right = 650.0
+margin_bottom = 150.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+theme = ExtResource( 2 )
+text = "À propos"
+valign = 1
+
+[node name="Label" type="Label" parent="GUI/AboutMenu/VBoxContainer"]
+margin_top = 200.0
+margin_right = 650.0
+margin_bottom = 707.0
+theme = ExtResource( 2 )
+custom_fonts/font = SubResource( 3 )
+text = "Une application 
+bac à sable pour
+apprendre Godot
+
+Axel et Pascal
+
+Godot 3.4.2
+
+Timer v. 0.4
+23/12/2021"
+align = 1
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+script = ExtResource( 13 )
+
+[connection signal="gui_input" from="GUI/Main" to="GUI" method="_on_Main_gui_input"]
+[connection signal="gui_input" from="GUI/Main/CenterContainer/HBoxContainer/InitButton" to="Timer" method="_on_InitButton_gui_input"]
+[connection signal="gui_input" from="GUI/Main/CenterContainer/HBoxContainer/StartPauseButton" to="Timer" method="_on_StartPauseButton_gui_input"]
+[connection signal="gui_input" from="GUI/Main/ConfigButton" to="GUI" method="_on_ConfigButton_gui_input"]
+[connection signal="gui_input" from="GUI/ConfigMenu/VBoxContainer/ConfigHeader/HBoxContainer/BackButton" to="GUI" method="_on_BackButton_gui_input"]
+[connection signal="gui_input" from="GUI/ConfigMenu/VBoxContainer/ParamButton" to="GUI" method="_on_ParamButton_gui_input"]
+[connection signal="gui_input" from="GUI/ConfigMenu/VBoxContainer/AboutButton" to="GUI" method="_on_AboutButton_gui_input"]
+[connection signal="gui_input" from="GUI/ParamMenu" to="Timer" method="_on_ParamMenu_gui_input"]
+[connection signal="gui_input" from="GUI/ParamMenu/VBoxContainer/ConfigHeader/HBoxContainer/BackButton" to="GUI" method="_on_BackButton_gui_input"]
+[connection signal="value_changed" from="GUI/ParamMenu/VBoxContainer/SpinBox" to="Timer" method="_on_SpinBox_value_changed"]
+[connection signal="gui_input" from="GUI/AboutMenu/VBoxContainer/ConfigHeader/HBoxContainer/BackButton" to="GUI" method="_on_BackButton_gui_input"]
+[connection signal="timeout" from="Timer" to="Timer" method="_on_Timer_timeout"]
+
+[editable path="GUI/ParamMenu"]

@@ -33,7 +33,7 @@ Situation professionnelle
 * trois constats/contraintes :
   * des élèves qui ne se connaissent pas
   * pédagogie différenciée
-  * socio constuctivisme
+  * socio-constructivisme
 
 
 **nécessité de travailler en groupe**

@@ -9,7 +9,6 @@ AutresThemes: "Black (default) - White - League - Sky - Beige - Simple - Serif -
 ---
 
 
-## Problématique
 #### Formation des stagiaires
 Écrit réflexif
 

@@ -1,0 +1,4 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Expos\IeC {\'e} et analyse de la situation professionnelle probl\IeC {\'e}matique}{4}{section.1}%
+\contentsline {section}{\numberline {2}Donn\IeC {\'e}es recueillies}{4}{section.2}%
+\contentsline {section}{\numberline {3}Conclusion}{4}{section.3}%

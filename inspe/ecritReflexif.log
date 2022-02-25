@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.8.30)  25 FEB 2022 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.8.30)  25 FEB 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,9 +441,9 @@ Here is how much of TeX's memory you used:
  59 hyphenation exceptions out of 8191
  71i,11n,75p,585b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on /home/bouscadilla/Documents/Travail/NSI/cours/vracs/inspe/ecritReflexif.pdf (4 pages, 161747 bytes).
+Output written on /home/bouscadilla/Documents/Travail/NSI/cours/vracs/inspe/ecritReflexif.pdf (4 pages, 162815 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 321 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  30 words of extra memory for PDF output out of 10000 (max. 10000000)

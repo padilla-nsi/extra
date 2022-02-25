@@ -24,7 +24,7 @@ Situation professionnelle
 ### Exposé et analyse
 
 
-<!-- .slide: data-background="img_apres.png" data-background-opacity=0.7 -->
+<!-- .slide: data-background="img01.jpg" data-background-opacity=0.7 -->
 
 --
 
@@ -52,7 +52,13 @@ Situation professionnelle
 ### Données reccueillies
 
 
-<!-- .slide: data-background="img_apres.png" data-background-opacity=0.7 -->
+
+<!-- .slide: data-background="img02.jpg" data-background-opacity=0.7 -->
+
+
+--
+
+
 
 ![](data01.png)
 
@@ -76,4 +82,10 @@ Situation professionnelle
 ### Conclusion
 
 
-<!-- .slide: data-background="img_apres.png" data-background-opacity=0.7 -->
+<!-- .slide: data-background="img03.jpg" data-background-opacity=0.7 -->
+
+
+--
+
+
+* illustrations : Ben Scruton [https://www.meiklejohn.co.uk/artist/ben_scruton_mjn](https://www.meiklejohn.co.uk/artist/ben_scruton_mjn)

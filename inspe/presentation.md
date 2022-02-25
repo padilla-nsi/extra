@@ -31,13 +31,17 @@ Situation professionnelle
 #### Situation professionnelle
 
 * enseignement de spécialité
-* des élèves qui ne se connaissent pas
-* pédagogie différenciée
-* socio constuctivisme
+* trois constats/contraintes :
+  * des élèves qui ne se connaissent pas
+  * pédagogie différenciée
+  * socio constuctivisme
 
 
 **nécessité de travailler en groupe**
 
+--
+
+Créer des groupes de niveaux pour appliquer une méthode collaborative
 
 --
 
@@ -87,5 +91,9 @@ Situation professionnelle
 
 --
 
+* gros travail en amont
+* moment marquant pour tous les élèves
+
+--
 
 * illustrations : Ben Scruton [https://www.meiklejohn.co.uk/artist/ben_scruton_mjn](https://www.meiklejohn.co.uk/artist/ben_scruton_mjn)

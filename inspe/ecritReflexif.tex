@@ -1,0 +1,210 @@
+\documentclass[a4paper, 12pt]{article}
+
+%% Language and font encodings
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{natbib}
+\usepackage[french]{babel}
+
+%Demande de l'INSPE de pas d'hyphénation mais rend le texte non justifié...
+%\usepackage[none]{hyphenat}
+
+% À decommenter si obligatoire. À vérifier aurpès de Maria...
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{setspace}
+%\onehalfspacing
+
+
+%\usepackage{multirow}
+%\usepackage{tabularx}
+%\usepackage{wrapfig} 
+%\usepackage{subfig}
+%\usepackage{picins}
+
+% Defining colors
+\usepackage{xcolor}
+\definecolor{deepblue}{rgb}{0.3,0.3,0.8}
+\definecolor{darkblue}{rgb}{0,0,0.3}
+\definecolor{deepred}{rgb}{0.6,0,0}
+%\definecolor{iremred}{RGB}{204,35,50}% ROUGE IREM
+%\definecolor{deepgreen}{rgb}{0,0.6,0}
+%\definecolor{backcolor}{rgb}{0.98,0.95,0.95}
+%
+\usepackage{hyperref}
+%
+%\usepackage{tocloft}
+%\usepackage{xparse}
+%\usepackage{etoolbox}
+%\urlstyle{tt}
+\newcommand{\email}[1]{\href{mailto:#1}{\tt{\nolinkurl{#1}}}}
+
+\usepackage[parfill]{parskip}
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\renewcommand\Authand{ et }			%franciser
+\renewcommand\Authands{, et }		%franciser
+%\usepackage{calc}
+%\usepackage{inconsolata}
+%\setlength{\headheight}{40pt}
+
+
+%% Sets page size and margins
+%\usepackage[a5paper,top=3cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+%%%%%%écrire dans la marge
+\usepackage[fulladjust]{marginnote}
+\usepackage[a4paper,margin=2cm]{geometry}% À changer en 2.5 selon les demandes de Maria : obligatoire ?
+\reversemarginpar
+\newcommand{\idee}[1]{%
+\reversemarginpar
+\hspace{-0.4em}\marginnote{\footnotesize #1}%
+}
+\newcommand{\info}[1]{\normalmarginpar\marginpar{
+  \textcolor{deepred}{\texttt{
+  \begin{minipage}[t]{1.5cm}
+    \begin{flushleft}
+      \tiny #1
+    \end{flushleft}
+  \end{minipage}
+  }}}}
+  
+
+%% Useful packages
+%\usepackage{amsmath}
+
+\usepackage{graphicx}
+%\usepackage{subfig} 
+
+% renommer les figures
+%\addto\captionsfrench{%
+%  \renewcommand{\listfigurename}{Liste des captures}%
+%  \renewcommand{\figurename}{\textsc{Capture}}%
+  %\renewcommand{\listtablename}{Nouveau nom}%
+%}
+
+%\usepackage{booktabs}
+%\usepackage[colorinlistoftodos]{todonotes}
+%---
+%\usepackage[most,listings,breakable,theorems]{tcolorbox}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% nomenclature
+
+%Mettre dans crochets: "number within=section," <- pour numérotation sous la forme section/soussection du code
+% cf doc de tcolorbox ici (469p!) :
+%http://texdoc.net/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
+%\newtcbtheorem[auto counter,list inside=cmb]{CMB}{Code \no}
+%{top=-1.5mm,bottom=-2mm,fonttitle=\sffamily\bfseries,arc=0mm, colback=backcolor,colframe=iremred}%
+%{code}%<-pour ref{code:...}
+%%%
+%%%%-----
+
+
+%\newcommand{\ciitice}{\gls{cii} \gls{tice}}
+
+%%%%-----------------------------
+%           TITRE et h/b de page
+%%%%-----------------------------
+%\renewcommand{\headrulewidth}{0pt}
+
+\title{{\includegraphics[width=\linewidth]{espe}}\\[2cm]
+Formation des stagiaires à temps complet\\[2cm]Écrit réflexif\\2021-2022 \\[4cm]
+\textbf{Constitution de groupes de niveau à l'aide d'activités en ligne}\\[2cm]
+}
+\vspace{2cm}
+
+\author{Pascal Padilla -- Lyc\'ee Simone Veil, Marseille \email{pascal.padilla@ax-aix-marseille.fr}}
+%\affil[1]{}%
+%\affil[2]{}%
+
+\date{}
+
+
+%%
+%\fancyhead[C]{\includegraphics[width=0.5 \linewidth]{espe}}
+%\fancyhead[R]{\includegraphics[width=2.5cm]{LogoC2it_800.png}}
+%\fancyhead[R]{}
+\fancyhead[L]{}
+
+\fancyfoot[L]{Pascal Padilla}
+\fancyfoot[R]{INSPE, Formation Stagiaire 2021-22}
+\renewcommand{\footrulewidth}{1pt}
+
+\pagestyle{fancy}
+
+
+\usepackage{lipsum}
+\newcommand{\remplissage}{
+  {\color{deepblue}\lipsum[1][1-10]}}
+
+
+% Citations perso
+\newcommand{\textcite}[1]{\og \textit{#1} \fg{}}
+
+
+%%--##################################################
+\begin{document}
+\renewcommand{\labelitemi}{\textbullet}
+
+%%--##################################################
+\maketitle
+
+\thispagestyle{empty}
+%Page de titre
+
+\newpage
+%%--##################################################
+\begin{abstract}
+
+Dans ce document, je vais présenter comment j'ai utiliser un outil informatique pour créer des groupes de niveaux dans ma classe. 
+
+Merci à \href{nicole.mencacci@univ-amu.fr}{Nicole Mencacci} pour sa formation et son accompagnement.
+
+\end{abstract}
+
+\thispagestyle{empty}
+
+%%--##################################################
+\newpage
+%sommaire
+\tableofcontents
+
+\thispagestyle{empty}
+
+%%--##################################################
+\newpage
+%%--##################################################
+%
+%  				DEBUT du texte principal
+%
+%--##################################################
+
+\newgeometry{margin=2cm,left=5cm,marginparwidth=4cm}
+\fancyhfoffset[L]{3cm}
+
+
+\section{Exposé et analyse de la situation professionnelle problématique}
+
+Je suis actuellement enseignant de spécialité Numérique et Sciences Informatique (NSI) en lycée général. J'enseigne au lycée Simone Veil de Marseille (13013), établissement qui accueille 850 élèves.
+
+
+Sur cet établissement, un élève de première doit choisir trois spécialité parmi une dizaine disponible sur le bassin. La NSI est un des choix possible.
+
+On y apprend l'informatique en tant que science. C'est-à-dire l'architecture et les communications entre les machines, l'algorithmique, la traduction en langage de programmation ou encore la gestion des données.
+
+
+Durant l'année, j'ai eu à mettre en place une activité s'appuyant sur la technique Dijksow
+
+\section{Données recueillies}
+
+Grâce à l'ENT Moodle, je parviens à collecter un grand nombre de données.
+
+\section{Conclusion}
+
+J'ai réussi à disciminer mes élèves en fonction de leur réussite
+
+
+
+
+
+
+\end{document}

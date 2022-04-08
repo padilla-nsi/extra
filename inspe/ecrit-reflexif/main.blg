@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: main.bib
+Warning--empty journal in feyfant_individualisation_2008
+Warning--empty journal in lautru_pedagogie_2019
+You've used 17 entries,
+            1935 wiz_defined-function locations,
+            566 strings with 6171 characters,
+and the built_in function-call counts, 5236 in all, are:
+= -- 516
+> -- 137
+< -- 20
++ -- 40
+- -- 40
+* -- 341
+:= -- 951
+add.period$ -- 58
+call.type$ -- 17
+change.case$ -- 96
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 249
+empty$ -- 399
+format.name$ -- 63
+if$ -- 1044
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 25
+newline$ -- 92
+num.names$ -- 51
+pop$ -- 106
+preamble$ -- 1
+purify$ -- 105
+quote$ -- 0
+skip$ -- 196
+stack$ -- 0
+substring$ -- 269
+swap$ -- 32
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 82
+warning$ -- 2
+while$ -- 41
+width$ -- 0
+write$ -- 223
+(There were 2 warnings)

@@ -1,0 +1,13 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Pr\IeC {\'e}sentation}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte d'enseignement}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Trois constats}{4}{subsection.1.2}%
+\contentsline {paragraph}{Des \IeC {\'e}l\IeC {\`e}ves qui ne se connaissent pas}{4}{section*.2}%
+\contentsline {paragraph}{Importance du socio-constructivisme}{5}{section*.3}%
+\contentsline {paragraph}{N\IeC {\'e}cessit\IeC {\'e} d'une p\IeC {\'e}dagogie diff\IeC {\'e}renci\IeC {\'e}e}{5}{section*.4}%
+\contentsline {section}{\numberline {2}M\IeC {\'e}thode Jigsaw}{5}{section.2}%
+\contentsline {section}{\numberline {3}Premi\IeC {\`e}re exp\IeC {\'e}rimentation}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}3 moments de la s\IeC {\'e}ances}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Difficult\IeC {\'e}s}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Ressenti}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusion}{7}{section.4}%

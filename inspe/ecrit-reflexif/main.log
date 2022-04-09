@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.8.30)  8 APR 2022 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.8.30)  9 APR 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,34 +609,26 @@ LaTeX Info: Redefining \nameref on input line 157.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<espe.jpg, id=40, 337.26pt x 54.9252pt>
-File: espe.jpg Graphic file (type jpg)
-<use espe.jpg>
-Package pdftex.def Info: espe.jpg  used on input line 161.
-(pdftex.def)             Requested size: 483.69687pt x 78.7754pt.
+<res/inspe.jpg, id=44, 1723.94063pt x 192.72pt>
+File: res/inspe.jpg Graphic file (type jpg)
+<use res/inspe.jpg>
+Package pdftex.def Info: res/inspe.jpg  used on input line 166.
+(pdftex.def)             Requested size: 483.69687pt x 54.07297pt.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 161.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 166.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
 \openout3 = `main.ist'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/espe.jpg>] [2] (/home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/res/inspe.jpg>] [2] (/home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/main.toc)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [3] (/home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/00Contexte.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[4] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+ [3] (/home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/00Contexte.tex (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
 
@@ -646,17 +638,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[5]
-<res/diagramme.drawio.png, id=89, 703.62875pt x 538.01pt>
-File: res/diagramme.drawio.png Graphic file (type png)
-<use res/diagramme.drawio.png>
-Package pdftex.def Info: res/diagramme.drawio.png  used on input line 91.
-(pdftex.def)             Requested size: 241.84843pt x 184.91585pt.
-)
+[1
 
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
+]
+Package marginnote Info: Using workaround for absolute page number on input line 47.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -665,7 +650,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[6 </home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/res/diagramme.drawio.png>]
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[3]
+<res/diagramme.drawio.png, id=99, 703.62875pt x 538.01pt>
+File: res/diagramme.drawio.png Graphic file (type png)
+<use res/diagramme.drawio.png>
+Package pdftex.def Info: res/diagramme.drawio.png  used on input line 124.
+(pdftex.def)             Requested size: 362.77264pt x 277.37788pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[4 </home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/res/diagramme.drawio.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6])
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -675,21 +703,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7] (/home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 73EB97F7FD570B69A05FC788562C9A86;542.
+(rerunfilecheck)             Checksum: A9F479E3B6B3A3E81F5A47450C816FC3;650.
  ) 
 Here is how much of TeX's memory you used:
- 17346 strings out of 481150
- 279990 string characters out of 5913037
- 834614 words of memory out of 5000000
- 33937 multiletter control sequences out of 15000+600000
+ 17359 strings out of 481150
+ 280158 string characters out of 5913037
+ 836619 words of memory out of 5000000
+ 33938 multiletter control sequences out of 15000+600000
  418089 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 102i,11n,102p,1136b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,12n,102p,1136b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/bouscadilla/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on /home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/main.pdf (7 pages, 231528 bytes).
+Output written on /home/bouscadilla/Documents/Travail/NSI/cours/extra/inspe/ecrit-reflexif/main.pdf (10 pages, 307722 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

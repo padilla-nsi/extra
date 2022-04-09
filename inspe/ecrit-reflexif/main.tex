@@ -5,242 +5,96 @@
 \usepackage[utf8x]{inputenc}
 \usepackage{natbib}
 \usepackage[french]{babel}
-
-%Demande de l'INSPE de pas d'hyphénation mais rend le texte non justifié...
-%\usepackage[none]{hyphenat}
-
-% À decommenter si obligatoire. À vérifier aurpès de Maria...
-%\usepackage{helvet}
-%\renewcommand{\familydefault}{\sfdefault}
-%\usepackage{setspace}
-%\onehalfspacing
-
-
-%\usepackage{multirow}
-%\usepackage{wrapfig} 
-%\usepackage{subfig}
-%\usepackage{picins}
-
-% Defining colors
 \usepackage{xcolor, colortbl}
-% \usepackage{colortbl} % colorier des tableaux
 \definecolor{deepblue}{rgb}{0.3,0.3,0.8}
 \definecolor{darkblue}{rgb}{0,0,0.3}
 \definecolor{deepred}{rgb}{0.6,0,0}
-%\definecolor{iremred}{RGB}{204,35,50}% ROUGE IREM
-%\definecolor{deepgreen}{rgb}{0,0.6,0}
-%\definecolor{backcolor}{rgb}{0.98,0.95,0.95}
-
-
 \usepackage{tabularx}
 \newcolumntype{Y}{>{\centering\arraybackslash}X} % centrer des colonne de type X
 \usepackage{arydshln} % lignes en pointillées
-
-
-%
 \usepackage{hyperref}
-%
-%\usepackage{tocloft}
-%\usepackage{xparse}
-%\usepackage{etoolbox}
-%\urlstyle{tt}
 \newcommand{\email}[1]{\href{mailto:#1}{\tt{\nolinkurl{#1}}}}
-
-\usepackage[parfill]{parskip}
+\usepackage{parskip}
 \usepackage{fancyhdr}
 \usepackage{authblk}
 \renewcommand\Authand{ et }			%franciser
 \renewcommand\Authands{, et }		%franciser
-%\usepackage{calc}
-%\usepackage{inconsolata}
-%\setlength{\headheight}{40pt}
-
-
-%% Sets page size and margins
-%\usepackage[a5paper,top=3cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
-%%%%%%écrire dans la marge
 \usepackage[fulladjust]{marginnote}
-\usepackage[a4paper,margin=2cm]{geometry}% À changer en 2.5 selon les demandes de Maria : obligatoire ?
-\reversemarginpar
-\newcommand{\idee}[1]{%
-\reversemarginpar
-\hspace{-0.4em}\marginnote{\footnotesize #1}%
-}
-\newcommand{\info}[1]{\normalmarginpar\marginpar{
-  \textcolor{deepred}{\texttt{
-  \begin{minipage}[t]{1.5cm}
-    \begin{flushleft}
-      \tiny #1
-    \end{flushleft}
-  \end{minipage}
-  }}}}
-  
-
-%% Useful packages
-%\usepackage{amsmath}
-
+\usepackage[a4paper,margin=2cm]{geometry}
 \usepackage{graphicx}
-%\usepackage{subfig} 
-
-% renommer les figures
-%\addto\captionsfrench{%
-%  \renewcommand{\listfigurename}{Liste des captures}%
-%  \renewcommand{\figurename}{\textsc{Capture}}%
-  %\renewcommand{\listtablename}{Nouveau nom}%
-%}
-
-%\usepackage{booktabs}
-%\usepackage[colorinlistoftodos]{todonotes}
-%---
-%\usepackage[most,listings,breakable,theorems]{tcolorbox}  
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% nomenclature
-\usepackage[acronym,toc]{glossaries}
-\loadglsentries[\acronymtype]{main-acro} % chargement du fichier caffa-acro.tex
-\renewcommand*{\glstextformat}[1]{\textcolor{darkblue}{#1}}
-\makeglossaries
-
-
-%Mettre dans crochets: "number within=section," <- pour numérotation sous la forme section/soussection du code
-% cf doc de tcolorbox ici (469p!) :
-%http://texdoc.net/texmf-dist/doc/latex/tcolorbox/tcolorbox.pdf
-%\newtcbtheorem[auto counter,list inside=cmb]{CMB}{Code \no}
-%{top=-1.5mm,bottom=-2mm,fonttitle=\sffamily\bfseries,arc=0mm, colback=backcolor,colframe=iremred}%
-%{code}%<-pour ref{code:...}
-%%%
-%%%%-----
-
-
-%\newcommand{\ciitice}{\gls{cii} \gls{tice}}
-
-%%%%-----------------------------
-%           TITRE et h/b de page
-%%%%-----------------------------
-%\renewcommand{\headrulewidth}{0pt}
-
-\title{{\includegraphics[width=\linewidth]{res/inspe}}\\[2cm]
-Écrit réflexif\\professeur stagiaire\\2021-2022 \\[4cm]
-\textbf{Découverte d'une méthode de pédagogie tutorée}\\[2cm]
-}
-\vspace{2cm}
-
-\author{Pascal Padilla -- Lyc\'ee Simone Veil, Marseille; \email{pascal.padilla@ax-aix-marseille.fr}}
-%\affil[1]{}%
-%\affil[2]{}%
-
-\date{}
-
-
-%%
-%\fancyhead[C]{\includegraphics[width=0.5 \linewidth]{espe}}
-%\fancyhead[R]{\includegraphics[width=2.5cm]{LogoC2it_800.png}}
-%\fancyhead[R]{}
 \fancyhead[L]{}
-
 \fancyfoot[L]{Pascal Padilla}
 \fancyfoot[R]{Écrit réflexif 2021-22}
 \renewcommand{\footrulewidth}{1pt}
-
 \pagestyle{fancy}
-
-
-\usepackage{lipsum}
-\newcommand{\remplissage}{
-  {\color{deepblue}\lipsum[1][1-10]}}
-
-
-% Citations perso
 \newcommand{\textcite}[1]{\og \textit{#1} \fg{}}
+\usepackage{abstract}
+\setlength{\absleftindent}{30mm}
+\setlength{\absrightindent}{30mm}
 
 
-%%--##################################################
+
+
+\title{%
+  {\includegraphics[width=\linewidth]{res/inspe}}
+  \\[2cm]
+  Écrit réflexif\\professeur stagiaire\\2021-2022 
+  \\[4cm]
+  \textbf{Découverte d'une méthode de pédagogie tutorée}
+  \vspace{2cm}
+}
+
+\author{Pascal Padilla -- Lyc\'ee Simone Veil, Marseille; \email{pascal.padilla@ax-aix-marseille.fr}}
+
+
+
 \begin{document}
 
-\pagenumbering{roman}
+
+
+  \pagenumbering{roman}
+  \renewcommand{\labelitemi}{\textbullet}
+
+  \maketitle
+  \thispagestyle{empty}
 
 
 
-\renewcommand{\labelitemi}{\textbullet}
-
-%%--##################################################
-\maketitle
-
-\thispagestyle{empty}
-%Page de titre
-
-\newpage
-%%--##################################################
-\begin{abstract}
-
-Merci à Nicole Mencacci pour son accompagnement.
-
-\end{abstract}
-
-\thispagestyle{empty}
-
-%%--##################################################
-\newpage
-%sommaire
-\tableofcontents
-
-\thispagestyle{empty}
-
-%%--##################################################
-\newpage
-%%--##################################################
-%
-%  				DEBUT du texte principal
-%
-%--##################################################
-
-\clearpage
-\pagenumbering{arabic}
+  \newpage
 
 
-\input{00Contexte.tex}
 
-% \thispagestyle{empty}\newpage
+  \begin{abstract}
+    \vspace{2cm}
+    Enseignant d'informatique en lycée général depuis septembre 2021, je décris dans cet écrit un dispositif de tutorat entres élèves.
+    \\
+    L'objectif de ce tutorat est de promouvoir le vivre ensemble tout en améliorant l'apprentissage.
 
-% \section{Constats et questionnements}
+    Merci ma famille pour son soutient constant.
+    
+    Mes remerciements vont aussi à Nicole Mencacci pour sa formation et son accompagnement bienveillant.
+  \end{abstract}
 
-% \input{01CadreTheorique.tex}\newpage
 
-% \section{Questions de recherche}
 
-% \input{02QuestionsRecherche.tex}\newpage
+  \newpage
 
-% \section{Méthodologie de recherche}
 
-% \input{03methodo-Intro.tex}
 
-% \input{03methodo-Classique.tex}
+  \tableofcontents
 
-% \input{03methodo-TypesValeursBase.tex}
 
-% \input{03methodo-ConstructionsElementaires.tex}\newpage
 
-% \section{Résultats et analyses des données recueillies}
+  \newpage
 
-% \input{04ResultatsAnalyse.tex}\newpage
 
-% \section{Discussions}
 
-% \input{05Discussions.tex}\newpage
+  \clearpage
+  \pagenumbering{arabic}
 
-% \newpage
-% \addcontentsline{toc}{section}{Liste des figures}
-% \listoffigures 
 
-% \newpage
+  \input{00-ecritReflexif.tex}
 
-% \printglossary[type=\acronymtype,style=altlist,title={Liste des acronymes}, toctitle={Liste des acronymes}]
-
-% \newpage
-
-% \bibliographystyle{apalike}
-% \bibliography{main}
-
-% \addcontentsline{toc}{section}{Références}
 
 
 \end{document}
